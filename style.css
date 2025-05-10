@@ -37,6 +37,7 @@ background-color: crimson;
 color: white;
 font-weight: bold;
 padding: 10px 20px;
+cursor: pointer;
 
 
 }
@@ -46,5 +47,66 @@ padding: 10px 20px;
 
 .middle-part{
   background-image: url(images/biography-bg.png);
+  padding-bottom: 40px;
   
 }
+.work-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+  padding: 50px 0px;
+  background-image: pink;
+
+}
+.image{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-image: url(images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0px;
+
+}
+
+.work-image{
+  width: 20%;
+
+}
+.Founder-CEO{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+
+}
+#message-area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url(images/header-bg.png); */
+}
+  .message-box {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfdfd;
+    background: linear-gradient(135deg, #ec4899, #db2777);
+    color: white;
+    padding: 30px 60px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 40%;
+  }
+  .footer {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 14px;
+    color: #6b7280; /* Tailwind's gray-500 for subtlety */
+    background-color: #ffffff;
+    border-top: 1px solid #e5e7eb; /* Light border for separation */
+    background-image: url(images/footer-bg.png);
+  }
+  
